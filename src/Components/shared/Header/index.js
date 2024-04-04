@@ -40,7 +40,7 @@ const Header = ({ transparent = false }) => {
     return (
         <div className={`header ${transparent ? '' : 'fixed-header'}`}>
             <div className="header-logo_box">
-                <h1>FreshFood</h1>
+                <h1>Food Factory</h1>
             </div>
             <div className="header_actions">
                 <Link to="/recipes" ><Button variant="outline-light" className="action-button">Recipes</Button></Link>
